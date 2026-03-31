@@ -165,11 +165,11 @@ article p {
     font-family: 'Lobster', cursive !important;
 }
 .top-nav a {
-    color: #005A9C !important; /* Azul Dodgers */
+    color: #ffffff !important; /* Azul Dodgers */
     text-decoration: none !important;
     margin: 0 10px;
 }
 
 .top-nav a:hover {
-    color: #C5A059 !important; /* Dourado ao passar o mouse */
+    color: #ffffff !important; /* Dourado ao passar o mouse */
 }
