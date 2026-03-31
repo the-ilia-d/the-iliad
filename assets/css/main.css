@@ -136,27 +136,31 @@ body {
     font-family: "Times New Roman", Times, serif !important;
     margin-bottom: 1.5em;
 }
-/* 1. MUDAR A FONTE DE TUDO NO POST (PUBLII E STACKEDIT) */
-.post__content, 
-.post__content p, 
-.post__content h1, 
-.post__content h2, 
-.post__content h3,
-.post__body,
-.post__body p,
-.stackedit__html,
-.stackedit__html p,
-.stackedit__html h2 {
+/* 1. CAÇA AO TÍTULO DO PUBLII (O "BOCÓ") */
+main h1, 
+main h2, 
+.post__title, 
+.post__header h1, 
+header h1,
+.post__content h1,
+.post__content h2 {
     font-family: "Times New Roman", Times, serif !important;
+    color: #005A9C !important; /* Azul Dodgers */
+    font-weight: bold !important;
 }
 
-/* 2. AJUSTE DO TÍTULO ESPECÍFICO DO PUBLII */
-/* Geralmente o Publii usa h1 ou h2 para o título do post */
-.post__content h1, 
-.post__header h1,
-.post__title {
+/* 2. CAÇA AO TEXTO (CORPO DO POST) */
+main p, 
+.post__content p, 
+.post__body p, 
+.post__entry p,
+article p {
     font-family: "Times New Roman", Times, serif !important;
-    font-weight: bold;
-    color: #005A9C !important; /* Azul Dodgers */
-    font-size: 2.5rem;
+    font-size: 1.15rem !important;
+    line-height: 1.7 !important;
+}
+
+/* 3. EXCEÇÃO: MANTÉM O LOGO "THE ILIAD" COM A FONTE LOBSTER */
+.hero h1, .hero h1 a {
+    font-family: 'Lobster', cursive !important;
 }
