@@ -106,3 +106,20 @@ body {
     margin-bottom: 10px;
     box-shadow: 3px 3px 0px var(--dodger-silver);
 }
+/* Isso vai fazer o texto colado do Markdown ficar elegante automaticamente */
+.post-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+.post-content h1, .post-content h2 {
+    color: #005A9C; /* Azul Dodger nos títulos */
+    margin-top: 2rem;
+}
+
+.post-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
