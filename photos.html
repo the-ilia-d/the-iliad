@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Galeria - The Iliad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Ajuste fino para a galeria brilhar */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .photo-card {
+            border: 3px solid #005A9C; /* Azul Dodger */
+            border-radius: 8px;
+            overflow: hidden;
+            background: white;
+            transition: transform 0.3s ease;
+        }
+        .photo-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 5px 15px rgba(0,90,156,0.3);
+        }
+        .photo-card img {
+            width: 100%;
+            display: block;
+        }
+        .photo-caption {
+            padding: 10px;
+            font-size: 0.9rem;
+            text-align: center;
+            background: #f8f8f8;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="index.html">Journal</a> <a href="photos.html" style="font-weight: bold; border-bottom: 2px solid #C5A059;">Photos</a>
+        </nav>
+
+        <header class="hero">
+            <h1>The Iliad - Arquivo Visual</h1>
+        </header>
+
+        <div class="layout-grid">
+            <main class="col-main">
+                <div class="box" style="border-left: 5px solid #C5A059;">
+                    <h2 style="color: #005A9C; font-family: 'Lobster', cursive;">📸 Galeria da Ilíada</h2>
+                    <p>Registros da jornada histórica, do azul profundo dos Dodgers e outros fragmentos de tempo.</p>
+                    
+                    <div class="gallery-grid">
+                        <div class="photo-card">
+                            <img src="assets/images/avatar.jpg" alt="Foto 1">
+                            <div class="photo-caption">Legenda da Foto 1</div>
+                        </div>
+
+                        <div class="photo-card">
+                            <img src="assets/images/avatar.jpg" alt="Foto 2">
+                            <div class="photo-caption">Legenda da Foto 2</div>
+                        </div>
+
+                        </div>
+                </div>
+            </main>
+
+            <aside class="col-side">
+                <div class="box profile-card">
+                    <h2>Galeria Online</h2>
+                    <p>Aqui ficam as memórias visuais do nosso estádio digital. 🏟️</p>
+                    <a href="index.html" class="btn-more">← Voltar para a Home</a>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
