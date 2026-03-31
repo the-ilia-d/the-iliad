@@ -45,6 +45,9 @@ body {
     margin: 0 20px;
     text-transform: uppercase;
 }
+.top-nav a:hover {
+    color: #C5A059 !important; 
+}
 
 /* GRID DE COLUNAS */
 .layout-grid {
@@ -163,17 +166,4 @@ article p {
 /* 3. EXCEÇÃO: MANTÉM O LOGO "THE ILIAD" COM A FONTE LOBSTER */
 .hero h1, .hero h1 a {
     font-family: 'Lobster', cursive !important;
-}
-/* Para as letras aparecerem no fundo azul do Publii */
-.top-nav a {
-    color: #FFFFFF !important; /* Letras Brancas para destacar no Azul */
-    text-decoration: none !important;
-    margin: 0 15px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-/* Quando passa o mouse, elas ficam douradas */
-.top-nav a:hover {
-    color: #C5A059 !important; 
 }
