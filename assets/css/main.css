@@ -136,3 +136,19 @@ body {
     font-family: "Times New Roman", Times, serif !important;
     margin-bottom: 1.5em;
 }
+/* Regra para TUDO que estiver dentro do conteúdo do post */
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content p,
+.stackedit__html h2,
+.stackedit__html p {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+/* Ajuste específico para o título principal do post ficar imponente */
+.post-content h1, .post-content h2 {
+    font-weight: bold;
+    color: #005A9C; /* Azul Dodgers para manter a identidade! */
+    margin-top: 20px;
+}
