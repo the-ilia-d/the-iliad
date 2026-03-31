@@ -164,12 +164,16 @@ article p {
 .hero h1, .hero h1 a {
     font-family: 'Lobster', cursive !important;
 }
+/* Para as letras aparecerem no fundo azul do Publii */
 .top-nav a {
-    color: #005A9C !important; /* Azul Dodgers */
+    color: #FFFFFF !important; /* Letras Brancas para destacar no Azul */
     text-decoration: none !important;
-    margin: 0 10px;
+    margin: 0 15px;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
+/* Quando passa o mouse, elas ficam douradas */
 .top-nav a:hover {
-    color: #005A9C !important; /* Dourado ao passar o mouse */
+    color: #C5A059 !important; 
 }
