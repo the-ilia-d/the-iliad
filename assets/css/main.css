@@ -136,19 +136,27 @@ body {
     font-family: "Times New Roman", Times, serif !important;
     margin-bottom: 1.5em;
 }
-/* Regra para TUDO que estiver dentro do conteúdo do post */
-.post-content h1, 
-.post-content h2, 
-.post-content h3, 
-.post-content p,
-.stackedit__html h2,
-.stackedit__html p {
+/* 1. MUDAR A FONTE DE TUDO NO POST (PUBLII E STACKEDIT) */
+.post__content, 
+.post__content p, 
+.post__content h1, 
+.post__content h2, 
+.post__content h3,
+.post__body,
+.post__body p,
+.stackedit__html,
+.stackedit__html p,
+.stackedit__html h2 {
     font-family: "Times New Roman", Times, serif !important;
 }
 
-/* Ajuste específico para o título principal do post ficar imponente */
-.post-content h1, .post-content h2 {
+/* 2. AJUSTE DO TÍTULO ESPECÍFICO DO PUBLII */
+/* Geralmente o Publii usa h1 ou h2 para o título do post */
+.post__content h1, 
+.post__header h1,
+.post__title {
+    font-family: "Times New Roman", Times, serif !important;
     font-weight: bold;
-    color: #005A9C; /* Azul Dodgers para manter a identidade! */
-    margin-top: 20px;
+    color: #005A9C !important; /* Azul Dodgers */
+    font-size: 2.5rem;
 }
