@@ -123,3 +123,16 @@ body {
     border-radius: 8px;
     margin: 20px 0;
 }
+/* Regra para deixar apenas o conteúdo dos posts com fonte clássica */
+.post-content, .stackedit__html {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 1.15rem; /* Um pouquinho maior para facilitar a leitura */
+    line-height: 1.7;    /* Espaçamento bom entre linhas */
+    color: #333;
+}
+
+/* Garante que os parágrafos dentro do post também sigam a regra */
+.post-content p, .stackedit__html p {
+    font-family: "Times New Roman", Times, serif !important;
+    margin-bottom: 1.5em;
+}
