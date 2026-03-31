@@ -1,17 +1,80 @@
-<article class="box status-card" style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #005A9C;">
-    <time style="font-size: 0.8rem; color: #888; font-weight: bold;">
-        31 de Março, 2026 - 14:30
-    </time>
-    <p style="margin-top: 10px; font-size: 1rem; line-height: 1.4;">
-        Hoje caminhei 20 minutos, me senti ok e pensei na Anne Hathaway estrelando <i>Mother Mary</i>. Ansioso por esse filme! 🎬🚶‍♂️
-    </p>
-</article>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Daily Log - The Iliad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Estilo exclusivo para as notas rápidas */
+        .status-card {
+            margin-bottom: 25px;
+            padding: 20px;
+            border-left: 5px solid #005A9C; /* Azul Dodgers */
+            background: #fff;
+            transition: 0.3s;
+        }
+        .status-card:hover {
+            border-left-color: #C5A059; /* Muda para Dourado no hover */
+            transform: translateX(5px);
+        }
+        .status-date {
+            display: block;
+            font-size: 0.85rem;
+            color: #888;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .status-text {
+            font-size: 1.05rem;
+            line-height: 1.5;
+            color: #333;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="daily.html" style="text-decoration: underline;">Daily</a>
+            <a href="photos.html">Photos</a>
+        </nav>
 
-<article class="box status-card" style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #C5A059;">
-    <time style="font-size: 0.8rem; color: #888; font-weight: bold;">
-        30 de Março, 2026
-    </time>
-    <p style="margin-top: 10px; font-size: 1rem; line-height: 1.4;">
-        Finalmente entendi como funcionam os diretórios no GitHub. Vitória do dia! 🏆
-    </p>
-</article>
+        <header class="hero">
+            <h1>The Iliad</h1>
+        </header>
+
+        <div class="layout-grid">
+            <main class="col-main">
+                <h2 style="font-family: 'Lobster', cursive; color: #005A9C; margin-bottom: 20px;">Daily Log</h2>
+                
+                <article class="box status-card">
+                    <time class="status-date">March 31, 2026 - 15:00</time>
+                    <p class="status-text">
+                        Hoje caminhei 20 minutos, me senti ok e pensei na Anne Hathaway estrelando <i>Mother Mary</i>. 
+                        Ansioso para ver esse filme.
+                    </p>
+                </article>
+
+                <article class="box status-card">
+                    <time class="status-date">March 31, 2026</time>
+                    <p class="status-text">
+                        Tive a ideia criar meu próprio "twitter". Vamos ver como vai ficar.
+                    </p>
+                </article>
+
+            </main>
+
+            <aside class="col-side">
+                <div class="box profile-card">
+                    <img src="assets/images/avatar.jpg" alt="Fabin" class="avatar">
+                    <h2>Fabin</h2>
+                    <p>Fã dos Dodgers, amante de história e agora mestre das notas rápidas. ⚾️🏛️</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
